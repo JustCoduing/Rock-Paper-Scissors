@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*
+{
+    padding:0;
+    margin:0;
+    font-family:"Kdam Thmor Pro";
+}
+
+body
+{
+    display: flex;
+    flex-direction:column ;
+    background-color:aliceblue;
+}
+
+.score-container   
+{
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    width:100vh;
+    padding: 20px;
+
+
+}
+.score-container
+{
+    font-size:20px ;
+   
+}
+
+
+.game-container 
+{
+    align-self: center;
+
+}
+
+.choices-container 
+{
+    border:none;
+    border-radius: 35px;
+    width: 70vh;
+    height:45vh;
+    background: linear-gradient(#54c1e2,#4996ee);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+i
+{
+  font-size: 120px;
+  color:rgb(255, 255, 255);
+  transition: all ease-out .2s;
+  cursor: pointer;
+  
+}
+
+#paper
+{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+i:hover 
+{
+    transform: scale(1.05);
+    
+}
+
+i:active
+{
+    transform: scale(.85);
+}
+
+
+.display-container 
+{
+    text-align: center;
+
+    
+}
+
+.round-container 
+{
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+
+.winner
+{
+    display: flex;
+
+}
+
+
+
+
